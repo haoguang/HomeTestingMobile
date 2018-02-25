@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HomeTesting</string>
+    <string name="title_service_list">Services</string>
+    <string name="title_service_detail">Service Detail</string>
 </resources>

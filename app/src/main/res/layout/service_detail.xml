@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.haoguang.hometesting.ServiceDetailFragment"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/CustomHeader"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center_vertical"
+        android:textIsSelectable="true"
+        android:text="Description"
+        />
+    <TextView
+        android:id="@+id/service_detail"
+        style="@style/ParagraphText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+         />
+
+        <TextView
+            style="@style/CustomHeader"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:gravity="center_vertical"
+            android:textIsSelectable="true"
+            android:text="Department"
+            />
+        <TextView
+            android:id="@+id/service_department"
+            style="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textIsSelectable="true"
+            />
+        <TextView
+            android:id="@+id/service_address"
+            style="@style/ParagraphText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textIsSelectable="true"
+            />
+
+    <TextView
+        style="@style/CustomHeader"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:gravity="center_vertical"
+        android:textIsSelectable="true"
+        android:text="Procedure"
+        />
+    <TextView
+        android:id="@+id/service_procedure"
+        style="@style/ParagraphText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textIsSelectable="true"
+        />
+
+
+</LinearLayout>
+
